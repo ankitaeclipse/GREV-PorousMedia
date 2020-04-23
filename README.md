@@ -37,7 +37,7 @@ dGREV:
 
 sGREV: 
 * Once you run the GLSZM_sGREV notebook, the final output is series of excel files that contain values of GLSZM properties for different window_sizes measured by varying the spatial locations. 
-* To infer sGREVs based on GLSZM properties, we calculate coefficient of variation. Use the script, [sGREV_Cv]().
+* To infer sGREVs based on GLSZM properties, we calculate coefficient of variation. Use the script, [sGREV_CV]().
 * It is important to remember that the sREV can take from a couple of minutes to hours or even a half-a-day depending on the number of window computations you have. Hence, it is advisable you use the time data from dGSREV to estimate approximately how long will the sGREV calculations take. 
 
 ## Example
