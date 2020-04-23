@@ -17,12 +17,37 @@ $ cd GREV-PorousMedia
 $ conda env update --prefix ./env --file environment.yml  --prune
 ```
 
+While all the GLSZM compuatations are carried out using Python3.6 version, I used MATLAB for visualization purposes as it allows easier customization for plots and 3-D contours.
+
 ## GREV Analysis
 
-The GREV analysis was carried out on grayscale micro-CT images. Originally these images are 16-bit images and need to be converted to 8-bit images by choosing cut-off based on a contrast adjustment algorithm. One such algorithm is the [modified automatic contrast adjustment algorithm](https://link.springer.com/chapter/10.1007/978-1-4471-6684-9_4). For this, you need to decide on a low-intensity and high intensity cut-off percentages based on the frequency histogram of gray-level intensities of the 16-bit image. The code for this is available in the jupyter notebook, [histogram_analysis](). Once you have chosen the cut-offs, use [ImageJ](https://imagej.net/Fiji) to re-quantize the 16-bit image to an 8-bit image.
+The GREV analysis was carried out on grayscale micro-CT images. Originally these images are 16-bit images and need to be converted to 8-bit images by choosing cut-off based on a contrast adjustment algorithm. One such algorithm is the [modified automatic contrast adjustment algorithm](https://link.springer.com/chapter/10.1007/978-1-4471-6684-9_4). For this, you need to decide on a low-intensity and high intensity cut-off percentages based on the frequency histogram of gray-level intensities of the 16-bit image. The code for this is available in the jupyter notebook, [histogram_analysis](). Once you have chosen the cut-offs, use [ImageJ](https://imagej.net/Fiji) to re-quantize the 16-bit image to an 8-bit image. This re-quantization is important to generate a non-sparse GLSZM representation of porous media. 
+
+### What is a GLSZM representation?
+Use the jupter notebook, [GLSZM]() to compute the GLSZM representation of the porous media micro-CT image. The GLSZM representation is exported as a excel sheet as using the [GLSZM]() notebook. You can visualize it by importing it to MATLAB and using the script, [Visualize_GLSZM]().
+
+### How to infer GREV?
 
 Two types of GREV are inferred as a part of this study: deterministic(d-) and statistic(s-) GREV. To compute GLSZM properties related to dGREV analysis, use the jupyter notebook [GLSZM_dGREV]() and to compute GLSZM properties related to sGREV, use the jupyter notebook [GLSZM_sGREV](). 
 
-dGREV: Once you run the GLSZM_dGREV notebook, the final output is simply an excel file that contains the value of GLSZM properties for different window_sizes. To infer dGREVs based on GLSZM properties, simply plot values of GLSZM properties against the different domain sizes or window sizes investiated. You can also see how long did calculation for each window-size take in the time-taken column. The time reported here is in seconds (s). 
+dGREV: 
+* Once you run the GLSZM_dGREV notebook, the final output is simply an excel file that contains the value of GLSZM properties for different window_sizes. 
+* To infer dGREVs based on GLSZM properties, simply plot values of GLSZM properties against the different domain sizes or window sizes investiated. Alternatively, you can visualize dGREV by importing the dGREV excel data to MATLAB and using the script, [Visualize_dREV](). 
+* You can also see how long did calculation for each window-size take in the time-taken column. The time reported here is in seconds (s). 
 
-sREV: Once you run the GLSZM_sGREV notebook, the final output is series of excel files that contain values of GLSZM properties for different window_sizes measured by varying the spatial locations. To infer sGREVs based on GLSZM properties, we calculate coefficient of variation. It is important to remember that the sREV can take from a couple of minutes to hours or even a half-a-day depending on the number of window computations you have. Hence, it is advisable you use the time data from dGSREV to estimate approximately how long will the sGREV calculations take. 
+sGREV: 
+* Once you run the GLSZM_sGREV notebook, the final output is series of excel files that contain values of GLSZM properties for different window_sizes measured by varying the spatial locations. 
+* To infer sGREVs based on GLSZM properties, we calculate coefficient of variation. Use the script, [sGREV_Cv]().
+* It is important to remember that the sREV can take from a couple of minutes to hours or even a half-a-day depending on the number of window computations you have. Hence, it is advisable you use the time data from dGSREV to estimate approximately how long will the sGREV calculations take. 
+
+## Example
+
+## Acknowledgment
+
+## Cite
+
+## License
+
+
+
+
