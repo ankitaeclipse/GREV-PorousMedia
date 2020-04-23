@@ -1,3 +1,6 @@
+![alt text][logo]
+
+[logo]: https://github.com/ankitaeclipse/GREV-PorousMedia/blob/master/GREV-PorousMedia.JPG "GsREV-PorousMedis"
+
 # GREV-PorousMedia
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3755511.svg)](https://doi.org/10.5281/zenodo.3755511)
