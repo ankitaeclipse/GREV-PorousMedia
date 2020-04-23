@@ -1,6 +1,6 @@
 ![alt text][logo]
 
-[logo]: https://github.com/ankitaeclipse/GREV-PorousMedia/blob/master/GREV-PorousMedia.JPG "GsREV-PorousMedis"
+[logo]: https://github.com/ankitaeclipse/GREV-PorousMedia/blob/master/GREV-PorousMedia.JPG "GsREV-PorousMedia"
 
 # GREV-PorousMedia
 Here we use analyse the grayscale micro-tomographic images (micro-CT) of porous media to infer a **Representative Elementary Volume** that is analogous to porosity and permeability.
@@ -9,7 +9,9 @@ To achieve this task, we borrow the [pyradiomics](https://pyradiomics.readthedoc
 
 ## Installations
 
-The most convenient way is to complete the installation procedures via [Anaconda](https://www.anaconda.com/distribution/) using Python 3.6+ versions. The first step is to create an anaconda environment and install [pyradiomics](https://pyradiomics.readthedocs.io/en/latest/installation.html) library. I personally recommend that you [install it from source](https://pyradiomics.readthedocs.io/en/latest/installation.html#install-from-source) so that all the dependcies are compiled on your own machine.  
+The most convenient way is to complete the installation procedures via [Anaconda](https://www.anaconda.com/distribution/) using Python 3.6+ versions. The first step is to create an anaconda environment and install [pyradiomics](https://pyradiomics.readthedocs.io/en/latest/installation.html) library. I personally recommend that you [install it from source](https://pyradiomics.readthedocs.io/en/latest/installation.html#install-from-source) so that all the dependcies are compiled on your own machine.
+
+You have installed the pyradiomics library, you will need to update the libraries in the enviorment you created. This is because I installed some additional libraires such as pandas, openpyxl and may more. A list of the packages is in the [environment.yml](
 
 
 
