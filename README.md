@@ -1,6 +1,4 @@
-![alt text][logo]
-
-[logo]: https://github.com/ankitaeclipse/GREV-PorousMedia/blob/master/GREV-PorousMedia.JPG "GsREV-PorousMedia"
+![logo](https://github.com/ankitaeclipse/GREV-PorousMedia/blob/master/GREV-PorousMedia.JPG)
 
 # GREV-PorousMedia
 Here we use analyse the grayscale micro-tomographic images (micro-CT) of porous media to infer a **Representative Elementary Volume** that is analogous to porosity and permeability.
