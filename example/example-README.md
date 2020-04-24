@@ -12,8 +12,8 @@ we get the following results.
 
 ### Histogran Representation and GLSZM Representation
 
-<img src="https://github.com/ankitaeclipse/GREV-PorousMedia/blob/master/example/grayhistogram-exampledata.jpg" alt="Kitten"
-	title="A cute kitten" width="150" height="100" />
+<img src="https://github.com/ankitaeclipse/GREV-PorousMedia/blob/master/example/grayhistogram-exampledata.jpg"
+	 width="500" height="500"/>
 ![Image](https://github.com/ankitaeclipse/GREV-PorousMedia/blob/master/example/glszm-example-represntation.jpg)
 
 ### Deterministic GREV (dGREV) based on GLSZM properties
