@@ -42,6 +42,7 @@ sGREV:
 * It is important to remember that the sREV can take from a couple of minutes to hours or even a half-a-day depending on the number of window computations you have. Hence, it is advisable you use the time data from dGREV to estimate approximately how long will the sGREV calculations take. 
 
 ## Example
+An example of how to use the code for a porous media image is shown in the [examples folder]().
 
 ## How to cite
 
