@@ -14,25 +14,24 @@ we get the following results.
 
 <img src="https://github.com/ankitaeclipse/GREV-PorousMedia/blob/master/example/grayhistogram-exampledata.jpg"
 	 width="500" height="500"/>
-![Image](https://github.com/ankitaeclipse/GREV-PorousMedia/blob/master/example/glszm-example-represntation.jpg)
+<img src="https://github.com/ankitaeclipse/GREV-PorousMedia/blob/master/example/glszm-example-represntation.jpg"
+	 width="500" height="500"/>	 
 
 ### Deterministic GREV (dGREV) based on GLSZM properties
 We investigate GREVs for window-sizes carying from 20^3 to 200^3 with a step increase of 20^3. 
 We chose to analyse dGREV based on *size zone non-uniformity normalized* abbreviated as SVNU, which is a GLSZM property calculated for different window or domain sizes mentioned above.
 
-![Image](https://github.com/ankitaeclipse/GREV-PorousMedia/blob/master/example/dREV.jpg)
+<img src="https://github.com/ankitaeclipse/GREV-PorousMedia/blob/master/example/dREV.jpg"
+	 width="500" height="500"/>
 
 The time taken to calculate the GLSZM and their associated properties are shown below:
-
-![Image](https://github.com/ankitaeclipse/GREV-PorousMedia/blob/master/example/time-taken-dGREV.jpg)
+<img src="https://github.com/ankitaeclipse/GREV-PorousMedia/blob/master/example/time-taken-dGREV.jpg"
+	 width="500" height="500"/>
 
 ### Statistic GREV (sGREV) based on GLSZM properties
 We investigate GREVs for window-sizes carying from 20^3 to 200^3 with a step increase of 20^3. 
 We chose to analyse sGREV based on *size zone non-uniformity normalized* abbreviated as SVNU, which is a GLSZM property calculated for different window or domain sizes mentioned above.
 
 To infer sGREV, the coefficient of variation is calculated for each window-size to quantify uncertainity.
-![Image](https://github.com/ankitaeclipse/GREV-PorousMedia/blob/master/example/sGREV.jpg)
-
-
-
-
+<img src="https://github.com/ankitaeclipse/GREV-PorousMedia/blob/master/example/sGREV.jpg"
+	 width="500" height="500"/>
