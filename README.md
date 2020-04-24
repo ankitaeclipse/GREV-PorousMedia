@@ -21,9 +21,10 @@ While all the GLSZM compuatations are carried out using Python3.6 version, I use
 
 ## GREV Analysis
 
-The GREV analysis was carried out on grayscale micro-CT images. Originally these images are 16-bit images and need to be converted to 8-bit images by choosing cut-off based on a contrast adjustment algorithm. One such algorithm is the [modified automatic contrast adjustment algorithm](https://link.springer.com/chapter/10.1007/978-1-4471-6684-9_4). For this, you need to decide on a low-intensity and high intensity cut-off percentages based on the frequency histogram of gray-level intensities of the 16-bit image. The code for this is available in the jupyter notebook, [histogram_analysis](). Once you have chosen the cut-offs, use [ImageJ](https://imagej.net/Fiji) to re-quantize the 16-bit image to an 8-bit image. This re-quantization is important to generate a non-sparse GLSZM representation of porous media. 
+The GREV analysis was carried out on grayscale micro-CT images. Originally these images are 16-bit images and need to be converted to 8-bit images by choosing cut-off based on a contrast adjustment algorithm. One such algorithm is the [modified automatic contrast adjustment algorithm](https://link.springer.com/chapter/10.1007/978-1-4471-6684-9_4). For this, you need to decide on a low-intensity and high intensity cut-off percentages based on the frequency histogram of gray-level intensities of the 16-bit image. The code for this is available in the jupyter notebook, [histogram_analysis](). Once you have chosen the cut-offs, use [ImageJ](https://imagej.net/Fiji) to re-quantize the 16-bit image to an 8-bit image. 
 
 ### What is a GLSZM representation?
+
 Use the jupter notebook, [GLSZM]() to compute the GLSZM representation of the porous media micro-CT image. The GLSZM representation is exported as a excel sheet as using the [GLSZM]() notebook. You can visualize it by importing it to MATLAB and using the script, [Visualize_GLSZM]().
 
 ### How to infer GREV?
@@ -43,13 +44,16 @@ sGREV:
 ## Example
 
 ## How to cite
+
 If you are keen to use the code, please cite the github repository and the journal article: 
 Singh, A., Regenauer‐Lieb, K., Walsh, S. D. C., Armstrong, R. T., van Griethuysen, J. J. M. & Mostaghimi, P. (2020). On representative elementary volumes of grayscale micro-CT images of porous media.
 
 ## License
+
 MIT License. Read further deatils about the license [here](https://github.com/ankitaeclipse/GREV-PorousMedia/blob/master/LICENSE). 
 
 ## References
+
 van Griethuysen, J. J. M., Fedorov, A., Parmar, C., Hosny, A., Aucoin, N., Narayan, V., Beets-Tan, R. G. H., Fillon-Robin, J. C., Pieper, S., Aerts, H. J. W. L. (2017). Computational Radiomics System to Decode the Radiographic Phenotype. Cancer Research, 77(21), e104–e107. `https://doi.org/10.1158/0008-5472.CAN-17-0339 <https://doi.org/10.1158/0008-5472.CAN-17-0339>
 
 
