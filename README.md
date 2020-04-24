@@ -43,6 +43,8 @@ sGREV:
 ## Example
 
 ## How to cite
+If you are keen to use the code, please cite the github repository and the journal article: 
+Singh, A., Regenauer‐Lieb, K., Walsh, S. D. C., Armstrong, R. T., van Griethuysen, J. J. M. & Mostaghimi, P. (2020). On representative elementary volumes of grayscale micro-CT images of porous media.
 
 ## License
 MIT License. Read further deatils about the license [here](https://github.com/ankitaeclipse/GREV-PorousMedia/blob/master/LICENSE). 
