@@ -25,15 +25,15 @@ The GREV analysis was carried out on grayscale micro-CT images. Originally these
 
 ### What is a GLSZM representation?
 
-Use the jupter notebook, [GLSZM]() to compute the GLSZM representation of the porous media micro-CT image. The GLSZM representation is exported as a excel sheet as using the [GLSZM]() notebook. You can visualize it by importing it to MATLAB and using the script, [Visualize_GLSZM]().
+Use the jupter notebook, [GLSZM](https://github.com/ankitaeclipse/GREV-PorousMedia/blob/master/GLSZM.ipynb) to compute the GLSZM representation of the porous media micro-CT image. The GLSZM representation is exported as a excel sheet using the [GLSZM](https://github.com/ankitaeclipse/GREV-PorousMedia/blob/master/GLSZM.ipynb) notebook. You can visualize it by importing it to MATLAB and using the script, [Visualize_GLSZM](https://github.com/ankitaeclipse/GREV-PorousMedia/blob/master/VisualizeGLSZM.m).
 
 ### How to infer GREV?
 
-Two types of GREV are inferred as a part of this study: deterministic(d-) and statistic(s-) GREV. To compute GLSZM properties related to dGREV analysis, use the jupyter notebook [GLSZM_dGREV]() and to compute GLSZM properties related to sGREV, use the jupyter notebook [GLSZM_sGREV](). 
+Two types of GREV are inferred as a part of this study: deterministic(d-) and statistic(s-) GREV. To compute GLSZM properties related to dGREV analysis, use the jupyter notebook [GLSZM_dGREV](https://github.com/ankitaeclipse/GREV-PorousMedia/blob/master/GLSZM-dGREV.ipynb) and to compute GLSZM properties related to sGREV, use the jupyter notebook [GLSZM_sGREV](https://github.com/ankitaeclipse/GREV-PorousMedia/blob/master/GLSZM-sGREV.ipynb). 
 
 dGREV: 
 * Once you run the GLSZM_dGREV notebook, the final output is simply an excel file that contains the value of GLSZM properties for different window_sizes. 
-* To infer dGREVs based on GLSZM properties, simply plot values of GLSZM properties against the different domain sizes or window sizes investiated. Alternatively, you can visualize dGREV by importing the dGREV excel data to MATLAB and using the script, [Visualize_dREV](). 
+* To infer dGREVs based on GLSZM properties, simply plot values of GLSZM properties against the different domain sizes or window sizes investiated.
 * You can also see how long did calculation for each window-size take in the time-taken column. The time reported here is in seconds (s). 
 
 sGREV: 
@@ -42,7 +42,7 @@ sGREV:
 * It is important to remember that the sREV can take from a couple of minutes to hours or even a half-a-day depending on the number of window computations you have. Hence, it is advisable you use the time data from dGREV to estimate approximately how long will the sGREV calculations take. 
 
 ## Example
-An example of how to use the code for a porous media image is shown in the [examples folder]().
+An example of how to use the code for a porous media image is shown in the [examples folder](https://github.com/ankitaeclipse/GREV-PorousMedia/tree/master/example).
 
 ## How to cite
 
