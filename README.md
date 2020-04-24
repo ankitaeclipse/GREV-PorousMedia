@@ -51,7 +51,7 @@ Singh, A., Regenauer‐Lieb, K., Walsh, S. D. C., Armstrong, R. T., van Griethuy
 
 ## License
 
-MIT License. Read further deatils about the license [here](https://github.com/ankitaeclipse/GREV-PorousMedia/blob/master/LICENSE). 
+A license will be added after the publication of the journal article related to this repository.
 
 ## References
 
