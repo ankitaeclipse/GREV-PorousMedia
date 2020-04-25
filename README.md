@@ -1,4 +1,5 @@
 ![Image](https://github.com/ankitaeclipse/GREV-PorousMedia/blob/master/GREV-PorousMedia-Logo.jpg)
+<a href="https://zenodo.org/badge/latestdoi/167011390"><img src="https://zenodo.org/badge/167011390.svg" alt="DOI"></a>
 
 # GREV-PorousMedia
 Here we analyze grayscale micro-tomographic images (micro-CT) of porous media to infer a **Representative Elementary Volume** using properties that are analogous to porosity and permeability.
